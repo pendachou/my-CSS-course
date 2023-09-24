@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@font-face {
+    font-family:DMSerif;
+    src: url(./my-css-tools/my-fonts/DMSerifDisplay-Regular.ttf);
+}
+
+body{
+    font-family: DMSerif, Verdana;
+    background: url(./my-css-tools/img/backgroungsite.jpg) center/cover;
+    /* vh= viewport height. pour avoir l'image a 100% de l'ecran  */
+    min-height: 100vh;
+}
+
+header{
+    text-align: center;
+    font-size: 3rem;
+    text-shadow:9px -1px 12px rgb(172, 89, 12);
+    
+}
+h1 {
+text-transform: uppercase; 
+letter-spacing: 3px;
+/* le letter spacing est en pixel */
+text-align: center;
+font-size: 2.5rem;
+/* les tailles de police doivent etre en REM 1rem equivaut a 16pixel*/
+text-shadow: 8px -1px 12px rgb(172, 89, 12);
+}
+
+
